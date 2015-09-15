@@ -1,0 +1,7 @@
+To classify which Game of Thrones character you are, put your plan in a sentence or two of how you would conquer the iron throne in plan.txt. Then run `python scripts/classify.py`.
+
+The code to generate the classifier is also in scripts/ . Call from the base directory scripts/generate_classifier.py . The classifier is about 20 percent accurate on the test data, where as guessing the mode would be about 18 percent accurate.
+
+The training data was found on wiki quotes and is in the data/ directory. There are several typos and multiple spellings on author names, but it is a fairly decent data source over all.
+
+The classifier and vectorizer are stored as pickles in the pickles/ directory.
